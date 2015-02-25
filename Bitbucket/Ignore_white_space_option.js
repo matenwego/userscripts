@@ -7,7 +7,7 @@
 // @grant       none
 // ==/UserScript==
 
-$(function () {
+(function ($) {
   $('.pullrequest-list .title a')
    .each(function () {
      var self = $(this);
