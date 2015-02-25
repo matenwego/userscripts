@@ -2,6 +2,7 @@
 // @name        Ignore whitespace option on Bitbucket
 // @namespace   com.thzinc.bitbucket
 // @include     https://bitbucket.org/*
+// @description Auto ignores whitespace option
 // @version     1
 // @grant       none
 // ==/UserScript==
@@ -57,4 +58,4 @@ $(function () {
 
   $('#pullrequest-actions')
    .append($('<div class="aui-buttons">').append(button));
-});
+}(jQuery));
